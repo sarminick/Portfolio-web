@@ -132,8 +132,21 @@ function App() {
               </div>
             ) : (
               <div className="mt-12 overflow-hidden rounded-3xl border border-stone-300/80 bg-stone-50/60 p-8 text-center sm:p-14 dark:border-stone-800/80 dark:bg-stone-900/40">
-                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-500/10 text-2xl text-amber-600 shadow-sm dark:bg-amber-500/15 dark:text-amber-400">
-                  <span>🚀</span>
+                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl border border-amber-500/30 bg-gradient-to-br from-amber-500/15 via-amber-500/5 to-transparent text-amber-600 shadow-lg shadow-amber-500/10 transition-transform duration-500 hover:scale-105 dark:border-amber-400/25 dark:from-amber-400/20 dark:via-amber-400/5 dark:text-amber-400">
+                  <svg
+                    viewBox="-11.5 -10.23174 23 20.46348"
+                    className="h-8 w-8 transition-transform duration-700 hover:rotate-180"
+                    fill="none"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <circle cx="0" cy="0" r="2.05" fill="currentColor" stroke="none" />
+                    <g strokeWidth="1.1">
+                      <ellipse rx="11" ry="4.2" />
+                      <ellipse rx="11" ry="4.2" transform="rotate(60)" />
+                      <ellipse rx="11" ry="4.2" transform="rotate(120)" />
+                    </g>
+                  </svg>
                 </div>
                 <h3 className="mt-5 text-xl font-bold tracking-tight text-stone-900 sm:text-2xl dark:text-stone-100">
                   {content.sections.projects.comingSoon}
