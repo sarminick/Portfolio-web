@@ -1,85 +1,55 @@
-# Portafolio personal
+<div align="center">
 
-Este es mi portafolio personal como desarrollador de software. Aquí presento mi perfil profesional, los proyectos en los que he trabajado, mis habilidades técnicas y las distintas formas de contactarme.
+# Diego Sarmiento · Portfolio Web
+### Desarrollador de Software | Frontend & Soluciones Digitales
 
-## Objetivo
+[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite_8-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Status](https://img.shields.io/badge/Status-Live_v1.0-emerald?style=for-the-badge)](https://github.com/sarminick/Portfolio-web)
 
-El objetivo es mostrar mi experiencia y mi forma de resolver problemas mediante una experiencia web moderna, responsive y accesible, orientada a nuevas oportunidades profesionales.
+<p align="center">
+  <b>🌐 Portafolio web personal, bilingüe y moderno enfocado en alto rendimiento, accesibilidad y experiencia de usuario.</b>
+</p>
 
-## Características
+[💼 LinkedIn](https://www.linkedin.com/in/diego-sarmiento-07b0b53b7) · [🐙 GitHub](https://github.com/sarminick) · [📧 Contacto](mailto:sarminick.dev@gmail.com)
 
-- Página única responsive para móvil, tablet y escritorio.
-- Contenido disponible en español e inglés.
-- Modo oscuro por defecto y selector de tema claro/oscuro.
-- Animaciones visuales para el hero, las secciones y las tarjetas.
-- Respeto por la preferencia `prefers-reduced-motion`.
-- Secciones de presentación, habilidades, proyectos, experiencia y contacto.
-- Enlaces directos a email, GitHub y LinkedIn.
-- Datos del portafolio separados de los componentes para facilitar su actualización.
-- Despliegue en Vercel.
+</div>
 
-## Tecnologías
+---
 
-- React
-- Vite
-- Tailwind CSS
-- JavaScript
-- Vercel para despliegue
+## 👨‍💻 Sobre el Proyecto
 
-## Requisitos
+Este repositorio contiene el código fuente de mi sitio web y portafolio profesional como desarrollador de software. Diseñado y construido desde cero con un enfoque en **criterio técnico, arquitectura escalable y microinteracciones refinadas**, sirviendo como vitrina de mi trayectoria, stack tecnológico y proyectos.
 
-- Node.js 18 o superior
-- pnpm
+### ✨ Características Destacadas
 
-## Instalación
+- **🌐 Experiencia 100% Bilingüe:** Soporte nativo para alternar entre **Español** e **Inglés** de forma instantánea sin recargar la página, con persistencia en `localStorage`.
+- **🌓 Modo Oscuro / Modo Claro:** Sistema de temas dinámico sincronizado con las preferencias del usuario y prevención de parpadeo (FOUC).
+- **⚛️ Hero Interactivo:** 
+  - Constelación de partículas en HTML5 Canvas con atracción interactiva al cursor.
+  - Tarjeta interactiva tipo terminal IDE (`sarminick.config.js`) con numeración de líneas y resaltado de sintaxis JavaScript.
+- **📱 Diseño Responsive Mobile-First:** Adaptación precisa y sin desbordamientos para dispositivos móviles, tablets y pantallas de escritorio.
+- **♿ Accesibilidad & Rendimiento:** Estructura semántica HTML5, estados `focus-visible`, soporte completo para `prefers-reduced-motion` y bundle ultraligero (< 70 kB gzipped).
+- **🗂️ Arquitectura Limpia:** Separación estricta entre la capa de datos (`portfolio.js`) y los componentes de presentación para facilitar el mantenimiento y escalabilidad.
 
-Clona el repositorio e instala las dependencias:
+---
 
-```bash
-pnpm install
-```
+## 🛠️ Stack Tecnológico
 
-Inicia el servidor de desarrollo:
+| Categoría | Tecnologías |
+|-----------|-------------|
+| **Core** | React 19, JavaScript (ES2022+) |
+| **Estilos & UI** | Tailwind CSS v4, CSS Grid, Flexbox, Canvas API |
+| **Tooling & Build** | Vite 8, Oxlint |
+| **Gestor de Paquetes** | pnpm |
+| **Despliegue** | Vercel |
 
-```bash
-pnpm dev
-```
+---
 
-El servidor local estará disponible normalmente en `http://localhost:5173`.
+## 📬 Contacto & Redes
 
-## Producción
-
-```bash
-pnpm build
-pnpm preview
-```
-
-## Estructura del proyecto
-
-```text
-portfolio-web/
-├── public/              # Recursos públicos
-├── src/
-│   ├── components/      # Componentes reutilizables y controles de UI
-│   ├── data/             # Contenido bilingüe del portafolio
-│   ├── hooks/            # Preferencias de idioma y tema
-│   ├── App.jsx           # Composición de la página principal
-│   ├── index.css         # Estilos globales y animaciones
-│   └── main.jsx          # Punto de entrada de React
-├── .gitignore
-├── PLAN.md              # Plan funcional y técnico
-├── package.json
-└── README.md
-```
-
-## Información personal
-
-- Nombre y descripción profesional.
-- Proyectos y enlaces relevantes.
-- Habilidades y tecnologías.
-- Experiencia profesional y trayectoria.
-- Información de contacto y redes profesionales.
-
-## Contacto
-
-Puedes encontrar mis enlaces profesionales y medios de contacto directamente en el sitio web.
+- **LinkedIn:** [Diego Sarmiento](https://www.linkedin.com/in/diego-sarmiento-07b0b53b7)
+- **GitHub:** [@sarminick](https://github.com/sarminick)
+- **Email:** [sarminick.dev@gmail.com](mailto:sarminick.dev@gmail.com)
